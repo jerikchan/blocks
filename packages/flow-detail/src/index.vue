@@ -22,7 +22,7 @@
 <script>
 import FlowTable from './table.vue';
 import FlowTabs from './tabs.vue';
-import XyTitle from '../../title/src/index.vue';
+import XyTitle from './title.vue';
 
 export default {
   name: 'XyFlowDetail',
