@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/About"
+    "url": "https://github.com/xiyun-international/blocks/tree/master/packages/verification"
   },
   "blockConfig": {
     "title": "短信安全验证",

@@ -1,8 +1,8 @@
 {
-  "name": "countdown-button",
+  "name": "flow-detail",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "倒计时按钮",
+  "description": "审批流详情组件",
   "scripts": {
     "dev": "vue serve demo/demo.vue"
   },
@@ -11,12 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/About"
+    "url": "https://github.com/xiyun-international/blocks/tree/master/packages/flow-detail"
   },
   "blockConfig": {
-    "title": "倒计时按钮",
+    "title": "审批流详情组件",
     "categories": [
-      "按钮"
+      "信息展示"
     ],
     "screenshot": "https://unpkg.com/@icedesign/about-block/screenshot.png"
   },

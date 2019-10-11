@@ -1,8 +1,8 @@
 {
-  "name": "select-city",
+  "name": "sens-text",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "城市多选弹窗",
+  "description": "敏感文字查看",
   "scripts": {
     "dev": "vue serve demo/demo.vue"
   },
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/About"
+    "url": "https://github.com/xiyun-international/blocks/tree/master/packages/sens-text"
   },
   "blockConfig": {
-    "title": "城市多选弹窗",
+    "title": "敏感文字查看",
     "categories": [
       "信息展示"
     ],
