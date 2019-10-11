@@ -1,0 +1,26 @@
+{
+  "name": "time-line",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "时间轴",
+  "scripts": {
+    "dev": "vue serve demo/demo.vue"
+  },
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/About"
+  },
+  "blockConfig": {
+    "title": "时间轴",
+    "categories": [
+      "信息展示"
+    ],
+    "screenshot": "https://unpkg.com/@icedesign/about-block/screenshot.png"
+  },
+  "devDependencies": {
+    "ant-design-vue": "^1.3.17"
+  }
+}
