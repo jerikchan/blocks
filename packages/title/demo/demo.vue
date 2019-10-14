@@ -14,11 +14,9 @@
 </template>
 <script>
 import XyTitle from "../src/index.vue";
-import { Button as AButton } from "ant-design-vue";
-import "ant-design-vue/lib/button/style/css";
 
 export default {
-  components: { XyTitle, AButton }
+  components: { XyTitle }
 };
 </script>
 <style scoped>

@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper">
-    <antd-xy-sens-text text="13800000831" type="mobile"></antd-xy-sens-text>
-    <antd-xy-sens-text text="xiyun_dev@xiyun.com.cn" type="email"></antd-xy-sens-text>
+    <xy-sens-text text="13800000831" type="mobile"></xy-sens-text>
+    <xy-sens-text text="xiyun_dev@xiyun.com.cn" type="email"></xy-sens-text>
   </div>
 </template>
 <script>
-import XySelectCity from "../src/index.vue";
+import XySensText from "../src/index.vue";
 
 export default {
   components: { XySensText },
