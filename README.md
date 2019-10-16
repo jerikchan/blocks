@@ -22,6 +22,20 @@ your-component-name/
 ```
 组件源码放在 src 目录中
 
+请注意，为了能让你的组件能够正确在线上平台展示，所以务必准确在`package.json`中填写完整以下信息：
+```json
+"blockConfig": {
+    // 组件标题
+    "title": "内容组件",
+    // 组件分类
+    "categories": [
+      "信息展示"
+    ],
+    // 截图，请在你的组件目录下附带组件截图的图片，在pr时，我们会上传并修改此项地址
+    "screenshot": ""
+  },
+```
+
 开发时为方便查看实时效果，你可以在 demo 目录中执行以下命令：
 ```bash
 $ xy block-dev demo.vue
