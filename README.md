@@ -40,4 +40,4 @@ your-component-name/
 ```bash
 $ xy block-dev demo.vue
 ```
-这时会开启一个默认带有 ant-design-ui 资源的预览开发服务，更多关于 block-dev 的用法请查看[禧云 CLI 文档](https://xiyun-international.github.io/xy/cli/plugins/block-dev.html)或[README](https://github.com/xiyun-international/xy/tree/master/packages/xy-plugin-block-dev)
+这时会开启一个默认带有 ant-design-ui 资源的预览开发服务，更多关于 block-dev 的用法请查看[禧云 CLI 文档](https://xiyun-international.github.io/xy/cli/plugins/block-dev.html)或[README](https://github.com/xiyun-international/xy/tree/master/packages/antd/xy-plugin-block-dev)
