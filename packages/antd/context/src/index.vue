@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { last } from 'lodash';
+// import { last } from 'lodash';
 
 export default {
   name: 'XyContext',
@@ -67,8 +67,8 @@ export default {
   mounted() {
     let titleName = this.title;
     if (titleName.length === 0) {
-      const { name } = last(this.breadcrumb);
-      titleName = name;
+      // const { name } = last(this.breadcrumb);
+      // titleName = name;
     }
     this.titleName = titleName;
   },

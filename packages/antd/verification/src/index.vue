@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import XyCountdownButton from '../countdown-button';
+import XyCountdownButton from './countdown-button.vue';
 
 export default {
   name: 'XyVerification',

@@ -1,13 +1,15 @@
 <template>
   <div class="wrapper">
-    <xy-countdown-button @click="onClick" :is-send.sync="isSend"></xy-countdown-button>
+    <xy-countdown-button
+      style="margin: 180px 240px"
+     @click="onClick" :is-send.sync="isSend"></xy-countdown-button>
   </div>
 </template>
 <script>
-import XyContext from '../src/index.vue';
+import XyCountdownButton from '../src/index.vue';
 
 export default {
-  components: {XyContext},
+  components: {XyCountdownButton},
   data() {
     return {
       isSend: false,
@@ -40,9 +42,9 @@ export default {
 <style scoped>
 .wrapper {
   width: 600px;
-  height: 300px;
+  height: 400px;
   border: 1px dashed silver;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 10px;
 }
 </style>

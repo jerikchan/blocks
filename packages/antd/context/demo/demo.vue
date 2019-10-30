@@ -26,6 +26,8 @@
 </template>
 <script>
 import XyContext from '../src/index.vue';
+// import lodash from 'lodash';
+
 
 export default {
   components: {XyContext},
@@ -34,7 +36,7 @@ export default {
 <style scoped>
 .wrapper {
   width: 600px;
-  height: 300px;
+  /* height: 300px; */
   border: 1px dashed silver;
   margin: 0 auto;
   padding: 10px;
